@@ -1,0 +1,36 @@
+# ESLint 忽略文件
+
+# 依赖目录
+node_modules
+
+# 构建输出目录
+dist
+dist-ssr
+*.local
+
+# 类型声明文件
+*.d.ts
+
+# 资源文件
+/public
+/src/assets
+
+# TRAE 相关文件
+.trae
+
+# 编辑器配置
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 配置文件
+.eslintrc.js
+.prettierrc
+.prettierignore
+vite.config.ts
+tsconfig.json
+tsconfig.node.json

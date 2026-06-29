@@ -1,0 +1,44 @@
+# Prettier 忽略文件
+# 以下文件/目录不进行 Prettier 格式化
+
+# 依赖目录
+node_modules
+
+# 构建输出目录
+dist
+dist-ssr
+*.local
+
+# 资源文件
+/public
+/src/assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.mp4
+*.mp3
+*.wav
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.otf
+
+# TRAE 相关文件
+.trae
+
+# 其他
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
